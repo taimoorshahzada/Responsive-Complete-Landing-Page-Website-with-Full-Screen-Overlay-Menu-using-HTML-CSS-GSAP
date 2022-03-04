@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ionicons link  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- gsap cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  </head>
+  <body>
+    <!-- header  -->
+
+    <header>
+      <div class="logo">Taimoor Shahzada</div>
+      <div class="menu-open" onclick="menuOpen()">
+        <ion-icon name="menu-outline"></ion-icon>
+      </div>
+    </header>
+
+    <div class="menu-container">
+      <div class="menu-close" onclick="menuClose()">
+        <ion-icon name="close-outline"></ion-icon>
+      </div>
+      <div class="menu-items">
+        <div class="menu-items-container">
+          <span>
+            <div class="menu-item">
+              <div class="menu-item-number">01</div>
+              <div class="menu-item-name">Home</div>
+              <div class="menu-item-sub">Briefly about the main thing</div>
+              <div class="menu-item-icon">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+              </div>
+            </div>
+          </span>
+          <div class="line"></div>
+          <span>
+            <div class="menu-item">
+              <div class="menu-item-number">02</div>
+              <div class="menu-item-name">About</div>
+              <div class="menu-item-sub">A story about people</div>
+              <div class="menu-item-icon">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+              </div>
+            </div>
+          </span>
+          <div class="line"></div>
+          <span>
+            <div class="menu-item">
+              <div class="menu-item-number">03</div>
+              <div class="menu-item-name">Vision</div>
+              <div class="menu-item-sub">Philosophy of work</div>
+              <div class="menu-item-icon">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+              </div>
+            </div>
+          </span>
+          <div class="line"></div>
+          <span>
+            <div class="menu-item">
+              <div class="menu-item-number">04</div>
+              <div class="menu-item-name">Projects</div>
+              <div class="menu-item-sub">Our practical experiences</div>
+              <div class="menu-item-icon">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+              </div>
+            </div>
+          </span>
+          <div class="line"></div>
+          <span>
+            <div class="menu-item">
+              <div class="menu-item-number">05</div>
+              <div class="menu-item-name">Contact</div>
+              <div class="menu-item-sub">Stay in touch with us</div>
+              <div class="menu-item-icon">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+              </div>
+            </div>
+          </span>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- background image  -->
+    <div class="bg-image">
+      <div class="image"></div>
+      <p>i vibe different</p>
+    </div>
+
+    <!-- h1 tag  -->
+    <div class="container">
+      <h1>DRIPP.</h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

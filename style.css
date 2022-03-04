@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1f1f1f;
+  color: antiquewhite;
+  font-family: "Durer";
+  overflow: hidden;
+}
+header {
+  position: absolute;
+  display: flex;
+  top: 0;
+  align-items: center;
+  z-index: 50;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+header .logo {
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+header .menu-open {
+  margin-right: 30px;
+}
+header .menu-open ion-icon {
+  font-size: 25px;
+  color: antiquewhite;
+}
+.container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.container h1 {
+  font-size: 350px;
+  letter-spacing: 500px;
+  font-weight: lighter;
+  opacity: 0;
+}
+.bg-image p {
+  text-align: center;
+  margin-top: 10px;
+}
+.bg-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height: 700px;
+  background-color: antiquewhite;
+  display: block;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+.image {
+  width: 500px;
+  height: 700px;
+  background-image: url(./bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  transform: translateY(1000px);
+}
+.menu-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #2b120b;
+  z-index: 100;
+  transform: translateX(500%);
+}
+.menu-close {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  transform: translate(-50%, -50%);
+}
+.menu-close ion-icon {
+  font-size: 25px;
+  color: antiquewhite;
+}
+.menu-items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.menu-items-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+.menu-items .menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  font-size: 40px;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+.menu-items .line {
+  width: 100%;
+  height: 1px;
+  transform-origin: left;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+.menu-item .menu-item-number {
+  font-style: italic;
+  padding: 0px 20px;
+  color: antiquewhite;
+  font-size: 25px;
+}
+.menu-item .menu-item-name {
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+.menu-item .menu-item-sub {
+  font-size: 15px;
+  align-self: flex-start;
+  padding: 25px 0px;
+  color: antiquewhite;
+}
+.menu-item .menu-item-icon {
+  padding: 0px 20px;
+}
+
+.menu-item .menu-item-icon ion-icon {
+  font-size: 25px;
+  transform: rotate(45deg);
+  color: antiquewhite;
+  font-weight: lighter;
+}
+
+span {
+  overflow: hidden;
+}
